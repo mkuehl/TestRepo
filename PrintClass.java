@@ -11,6 +11,5 @@ public class PrintClass {
 	
 	public void printText() {
 		System.out.println(textToShow);
-		//nur ein neuer INSERTION Kommentar!
 	}
 }
