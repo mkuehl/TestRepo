@@ -639,8 +639,7 @@ public class DHKeyAgreement2 {
             aliceKeyAgree.doPhase(assumedBobPubKey, true);
             aliceSend = true;
         }
-        
-		// hier kommt auch ein Kommentar hin, aber wer weiß, wie lange der hier bleibt
+		
         private void createSecret() {
         	byte[] aliceSharedSecret = aliceKeyAgree.generateSecret();
         	System.out.println("Alice Secret: " + toHexString(aliceSharedSecret));
