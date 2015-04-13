@@ -623,6 +623,7 @@ public class DHKeyAgreement2 {
             alicePubKeyEnc = aliceKpair.getPublic().getEncoded();
         }
         
+		//hier kommt nochmal ein Kommentar hin
         private void initDH() throws NoSuchAlgorithmException, InvalidKeySpecException, InvalidKeyException, IllegalStateException {
         	aliceSend = false;
             /*
@@ -639,6 +640,7 @@ public class DHKeyAgreement2 {
             aliceSend = true;
         }
         
+		// hier kommt auch ein Kommentar hin, aber wer weiß, wie lange der hier bleibt
         private void createSecret() {
         	byte[] aliceSharedSecret = aliceKeyAgree.generateSecret();
         	System.out.println("Alice Secret: " + toHexString(aliceSharedSecret));
