@@ -3,6 +3,7 @@ public class PrintClass {
 
 	private String textToShow;
 	protected short a;
+	protected short b;
 
 	public PrintClass() {	}
 	
@@ -20,5 +21,14 @@ public class PrintClass {
 	
 	public short getA() {
 		return a;
+	}
+	
+	public void setB(short p_b) {
+		b = p_b;
+	}
+	
+		
+	public short getB() {
+		return b;
 	}
 }
