@@ -1,3 +1,5 @@
+package eu.max.test;
+
 
 public class PrintClass {
 
