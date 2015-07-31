@@ -53,4 +53,8 @@ public class PrintClass {
 	public short getD() {
 		return d;
 	}
+	
+	public int addAB() {
+		return a + b;
+	}
 }
