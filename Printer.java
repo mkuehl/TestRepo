@@ -18,10 +18,6 @@ public class Printer {
 		System.out.println(textToShow);
 	}
 	
-	public void setA(short p_a) {
-		a = p_a;
-	}	
-	
 	public short getA() {
 		return a;
 	}
