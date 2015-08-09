@@ -6,7 +6,7 @@ import java.sql.Date;
 public class Printer {
 
 	private String textToShow;
-	protected short a;
+	private int b;
 	
 	public PrintClass() {	}
 	
