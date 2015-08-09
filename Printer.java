@@ -14,7 +14,7 @@ public class Printer {
 		textToShow = p_textToShow;
 	}
 	
-	public void printText() {
+	public void printTextToShow() {
 		System.out.println(textToShow);
 	}
 	
