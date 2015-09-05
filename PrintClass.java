@@ -57,4 +57,8 @@ public class PrintClass extends Object implements TestInterface1, TestInterface2
 	public int addAB() {
 		return a + b;
 	}
+	
+	public int addBC() {
+		return c + d;
+	}
 }

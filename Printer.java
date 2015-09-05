@@ -20,4 +20,8 @@ public class Printer {
 	public short getA() {
 		return a;
 	}
+	
+	public short setB(int p_b) {
+		b = p_b;
+	}
 }
