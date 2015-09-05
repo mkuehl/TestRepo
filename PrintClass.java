@@ -3,7 +3,7 @@ package eu.max.test;
 import java.util.*;
 import java.sql.Date;
 
-public class PrintClass implements TestInterface1, TestInterface2 {
+public class PrintClass extends Object implements TestInterface1, TestInterface2 {
 
 	private String textToShow;
 	protected short a;
