@@ -17,11 +17,11 @@ public class Printer {
 		System.out.println(textToShow);
 	}
 	
-	public short getA() {
-		return a;
-	}
-	
 	public short setB(int p_b) {
 		b = p_b;
 	}
+	
+	public short getB() {
+		return b;
+	}	
 }
