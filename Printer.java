@@ -30,4 +30,10 @@ public class Printer implements Iterable {
 		// TODO Auto-generated method stub
 		return null;
 	}
+	
+	protected long addition(int summand1, int summand2) {
+		long summe;
+		summe = summand1 + summand2;
+		return summe;
+	}
 }
