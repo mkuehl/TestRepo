@@ -2,7 +2,7 @@ package eu.max.test;
 
 import java.util.*;
 
-public class Printer {
+public class Printer implements Iterable {
 
 	private String textToShow;
 	private int b;
@@ -24,4 +24,10 @@ public class Printer {
 	public short getB() {
 		return b;
 	}	
+	
+	@Override
+	public Iterator iterator() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }
