@@ -14,6 +14,7 @@ public class Printer implements Iterable {
 	}
 	
 	public void printTextToShow() {
+		System.out.println("TextToShow: ");
 		System.out.println(textToShow);
 	}
 	
