@@ -2,7 +2,7 @@ package eu.max.test;
 
 import java.util.*;
 
-public class Printer extends Object implements Iterable, Iterator {
+public class Printer extends Object implements Iterator {
 
 	private String textToShow;
 	private int b;
