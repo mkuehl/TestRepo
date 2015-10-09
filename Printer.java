@@ -2,7 +2,7 @@ package eu.max.test;
 
 import java.util.*;
 
-public class Printer extends Object implements Iterator {
+public class Printer extends Object implements MeineSchnittstelle, DeineSchnittstelle, SeineSchnittstelle, IhreSchnittstelle {
 
 	private String textToShow;
 	private int b;
