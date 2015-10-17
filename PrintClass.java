@@ -19,7 +19,9 @@ public class PrintClass implements TestInterface1, TestInterface2 {
 	}
 	
 	public void printText() {
+		System.out.println("Now printing...");
 		System.out.println(textToShow);
+		setA(7357);
 	}
 	
 	public void setA(short p_a) {
