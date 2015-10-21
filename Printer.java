@@ -18,9 +18,9 @@ public class Printer extends Object implements MeineSchnittstelle, DeineSchnitts
 		System.out.println(textToShow);
 	}
 	
-	public short setB(int p_b) {
-		System.out.println("setting b to " + p_b);
-		b = p_b;
+	protected int setBReturnInt(short p_b) {
+		b =p_b;
+		return b;
 	}
 	
 	public short getB() {
